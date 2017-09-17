@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+<!-- This is the page title -->
+{% block title %}This is the index{% endblock %}
+
+<!-- This is where we put the nav bar urls -->
+{% block nav_links %}
+    <li><a href="{{ url_for('index') }}">Demo</a> </li>
+    <li><a href="#">Video Stream</a> </li>
+}
+{% endblock %}
+
+<!-- This is where the main content of the page goes -->
+{% block content %}
+    <h2>OccuBot</h2>
+    <hr>
+    <header class="navbar">
+        <form action="/upload" method="post" enctype="multipart/form-data" >
+            <span class="btn btn-default btn-file">Browse <input type="file" name="image">
+            </span>
+            <input type="submit" value="Upload your image" class="btn btn-primary">
+        </form>
+    <img src=<var>NewImage</var> style="width:100%">
+
+  </span>
+</header>
+
+</body>
+    
+{% endblock %}
