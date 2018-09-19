@@ -20,3 +20,5 @@ In addition to OccuBOT’s aforementioned applications, there is also the option
 Secondly, OccuBOT presents a unique opportunity through which to improve public safety on a large scale. The facial recognition capabilities of this software, while keeping the user anonymous to other users, could be used to detect high-risk individuals and alert the appropriate authorities. This creates an non-invasive means to improve public security.
 
 
+Created at Hack the North 2017.
+Devpost: https://devpost.com/software/occubot
